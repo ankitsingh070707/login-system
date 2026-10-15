@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #185845;
+  color: #fff;
+}
+.main {
+  height: 78vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5vw;
+}
+.main .email_div input,
+.main .password_div input {
+  height: 2.8vw;
+  width: 30vw;
+  padding-left: 16px;
+  font-size: 1.5vw;
+  font-weight: bolder;
+}
+.main button {
+  height: 5vw;
+  width: 10vw;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #191818;
+  transition-duration: 0.2s;
+  transition-property: all;
+  transition-timing-function: ease-in;
+}
+.main button:hover {
+  background-color: #3a3939;
+}
+
+#hide_btn {
+  height: 3.2vw;
+  width: 3.7vw;
+  background-color: #000000;
+  color: #f1ecec;
+  font-size: 2vw;
+}
+#hide_btn:hover {
+  font-size: none;
+  font-weight: none;
+}
+.footer {
+  height: 4vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#output {
+  color: #f00;
+}
+#login_btn {
+  height: 5vw;
+  width: 10vw;
+  font-size: 1.7vw;
+}
