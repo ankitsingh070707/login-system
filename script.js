@@ -34,8 +34,8 @@ loginbtn.addEventListener("click", () => {
   }
   if (login) {
     setTimeout(() => {
-      window.location = "abc.html";
-    }, 3000);
+      window.location = "mainpage.html";
+    }, 500);
     output.style.color = "#0f0";
     output.innerText = "LOGIN SUCCESSFUL";
   } else {
